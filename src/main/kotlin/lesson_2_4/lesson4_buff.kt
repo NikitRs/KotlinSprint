@@ -4,7 +4,9 @@ fun main(){
 
     val cristalMineral = 7
     val ironMineral = 11
-    val buff = 0.2
+    val buffPercent = 20
+    val fullPercent = 100f
+    val buff = buffPercent / fullPercent
 
     val buffCristalMineral = (cristalMineral * buff).toInt()
     val buffCIronMineral = (ironMineral * buff).toInt()
