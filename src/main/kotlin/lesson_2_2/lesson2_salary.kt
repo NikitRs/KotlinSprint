@@ -8,8 +8,8 @@ fun main (){
     val traineeSalary = 30000
 
     val expenseMainSalary = mainEmployee * mainEmployeeSalary
-    val generalExpenseSalary = (expenseMainSalary + (trainee * traineeSalary))
-    val middleSalary = (generalExpenseSalary / (mainEmployee + trainee))
+    val generalExpenseSalary = expenseMainSalary + trainee * traineeSalary
+    val middleSalary = generalExpenseSalary / (mainEmployee + trainee)
 
     println("Расходы на зарплату основных сотрудников составляют: $expenseMainSalary$")
     println("Общий расход на зарплату основных сотрудников и стажеров составляет: $generalExpenseSalary$")
