@@ -7,7 +7,7 @@ fun main (){
     val trainee = 30
     val traineeSalary = 30000
 
-    val expenseMainSalary = (mainEmployee * mainEmployeeSalary)
+    val expenseMainSalary = mainEmployee * mainEmployeeSalary
     val generalExpenseSalary = (expenseMainSalary + (trainee * traineeSalary))
     val middleSalary = (generalExpenseSalary / (mainEmployee + trainee))
 
