@@ -14,8 +14,8 @@ fun main (){
     var trainHourArrival = trainHourStart + trainHourWay
     var trainMinutesArrival = trainMinutesStart + trainMinutesWay
 
-    if (trainMinutesArrival >= 60){
-        trainMinutesArrival -= 60
+    if (trainMinutesArrival >= MINUTE_IN_HOUR){
+        trainMinutesArrival -= MINUTE_IN_HOUR
         trainHourArrival++
     }
 
