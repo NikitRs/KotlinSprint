@@ -10,8 +10,8 @@ fun main (){
     println(hour)
     println(minute)
 
-    hour = "10:"
+    hour = "10"
     minute = "55"
 
-    print("Время посадки Юрия Гагарина $hour$minute")
+    print("Время посадки Юрия Гагарина $hour:$minute")
 }
