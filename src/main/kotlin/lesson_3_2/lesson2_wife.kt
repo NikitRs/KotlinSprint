@@ -1,12 +1,18 @@
 package lesson_3_2
 
-fun main(){
+fun main() {
 
-    val presentName = "Сидорова Татьяна Сергеевна"
+    val name = "Татьяна"
+    var surname = "Сидорова"
+    val additionalName = "Сергеевна"
     val presentAge = 22
-    val pastName = "Андреева Татьяна Сергеевна"
     val pastAge = 20
 
-    println("В возрасте $pastAge лет ваше ФИО было: $pastName")
-    println("В данный момент вам $presentAge года и ваше ФИО: $presentName")
+    println("В данный момент вам $presentAge года и ваше ФИО: $surname $name $additionalName")
+
+    surname = "Андреева"
+
+    println("В $pastAge лет вашие ФИО было: $surname $name $additionalName")
+
+
 }
