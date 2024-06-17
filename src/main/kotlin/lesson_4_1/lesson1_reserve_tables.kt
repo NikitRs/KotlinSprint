@@ -9,6 +9,6 @@ fun main () {
     val reserveToday = reserveTablesToday < fullTables
     val reserveTomorrow = reserveTablesTomorrow < fullTables
 
-    println("Доступность столиков на сегодня: $reserveToday \nДоступность столиков на завтра: $reserveTomorrow ")
+    println("Доступность столиков на сегодня: $reserveToday \nДоступность столиков на завтра: $reserveTomorrow")
 
 }
