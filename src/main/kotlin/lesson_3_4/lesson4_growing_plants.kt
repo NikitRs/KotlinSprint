@@ -1,17 +1,17 @@
 package lesson_3_4
 
+const val IS_SUNNY = "солнечная"
+const val IS_AWNING_OPEN = true
+const val HAS_HUMIDITY_AIR = 20
+const val HAS_SEASON = "не зима"
+
 fun main() {
 
-    val favorableConditionsWeather = "солнечная"
-    val favorableConditionsOpenTent = true
-    val favorableConditionsHumidityAir = 20
-    val favorableConditionsSeason = "не зима"
+    val isSunnyNow = "солнечная"
+    val isAwningOpenNow = true
+    val hasHumidityAirNow = 20
+    val hasSeasonNow = "зима"
 
-    val nowConditionsWeather = "солнечная"
-    val nowConditionsOpenTent = true
-    val nowConditionsHumidityAir = 20
-    val nowConditionsSeason = "зима"
-
-    println("Благоприятные ли условия сейчас для роста бобовых? ${nowConditionsWeather == favorableConditionsWeather && nowConditionsOpenTent == favorableConditionsOpenTent && nowConditionsHumidityAir == favorableConditionsHumidityAir && nowConditionsSeason == favorableConditionsSeason} ")
+    println("Благоприятные ли условия сейчас для роста бобовых? ${isSunnyNow == IS_SUNNY && isAwningOpenNow == IS_AWNING_OPEN && hasHumidityAirNow == HAS_HUMIDITY_AIR && hasSeasonNow == HAS_SEASON} ")
 
 }
