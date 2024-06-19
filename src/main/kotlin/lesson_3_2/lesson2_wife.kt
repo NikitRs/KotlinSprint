@@ -5,14 +5,15 @@ fun main() {
     val name = "Татьяна"
     var surname = "Сидорова"
     val additionalName = "Сергеевна"
-    val presentAge = 22
-    val pastAge = 20
+    var age = 22
 
-    println("В данный момент вам $presentAge года и ваше ФИО: $surname $name $additionalName")
+
+    println("В данный момент вам $age года и ваше ФИО: $surname $name $additionalName")
 
     surname = "Андреева"
+    age = 20
 
-    println("В $pastAge лет вашие ФИО было: $surname $name $additionalName")
+    println("В $age лет вашие ФИО было: $surname $name $additionalName")
 
 
 }
